@@ -57,7 +57,7 @@
                 <div class="menu-item_container">
                     <h1 style="color: red;">CheeseBurger</h1>
                     <h3 class="price">M.R.P: ₹119/- Only</h3><br>
-                    <button class="menu-item_container_button" style="margin-top: 5px;">Buy</button>            
+                    <button class="menu-item_container_button" style="margin-top: 5px;" onclick="btn(event)">Buy</button>            
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                 <div class="menu-item_container">
                     <h1 style="color: red;">Chicken Pizza</h1>
                     <h3 class="price">M.R.P: ₹499/- Only</h3><br>
-                    <button class="menu-item_container_button" style="margin-top: 5px;">Buy</button>            
+                    <button class="menu-item_container_button" style="margin-top: 5px;" onclick="btn(event)">Buy</button>            
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                 <div class="menu-item_container">
                     <h1 style="color: red;">Chicken-65</h1>
                     <h3 class="price">M.R.P: ₹299/- Only</h3><br>
-                    <button class="menu-item_container_button" style="margin-top: 5px;">Buy</button>            
+                    <button class="menu-item_container_button" style="margin-top: 5px;" onclick="btn(event)">Buy</button>            
                 </div>
             </div>
 
@@ -84,7 +84,7 @@
                 <div class="menu-item_container">
                     <h1 style="color: red;">French fries</h1>
                     <h3 class="price">M.R.P: ₹99/- Only</h3><br>
-                    <button class="menu-item_container_button" style="margin-top: 5px;">Buy</button>            
+                    <button class="menu-item_container_button" style="margin-top: 5px;" onclick="btn(event)">Buy</button>            
                 </div>
             </div>
 
@@ -212,8 +212,7 @@
             sidnav.style.left = "-60%"
         }
 
-        var btn = document.querySelector(".menu-item_container_button")
-        btn.addEventListener("click",function(){
+       function btn(event){
             alert("This is not available now..")
         })
         

@@ -54,7 +54,7 @@
         <input type="date" name="date" required>
         <input type="time" name="time" required>
         <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="reservation()">Submit</button>
       </form>
     </div>
   </section>
@@ -72,7 +72,7 @@
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
+        <button type="submit" onclick="contact()">Send Message</button>
       </form>
     </div>
   </section>
@@ -107,6 +107,14 @@
     function closeNavbar() {
       sidnav.style.left = "-60%"
     }
+
+    function contact(){
+            alert("Thank you. Our team will Message you soon...")
+        }
+
+    function reservation(){
+            alert("Thank you. Your table was reserved...")
+        }
   </script>
 
 </body>

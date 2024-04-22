@@ -312,6 +312,7 @@ body {
     display: flex;
     border: 2px solid beige;
     border-radius: 25px;
+    text-align: justify;
 }
 
 /* menu*/

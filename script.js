@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         a.textContent = linkData.text;
         p.appendChild(a);
         navbarLinks.appendChild(p);
+        console.log(linkData)
     });
 
     // Create the menu toggle

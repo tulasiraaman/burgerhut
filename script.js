@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { href: "index.html#about", text: "About" },
         { href: "menu.html", text: "Menu" },
         { href: "reservation.html", text: "Reservations" },
-        { href: "#gallery", text: "Gallery" },
+        { href: "index.html#gallery", text: "Gallery" },
         { href: "#contact", text: "Contact" }
     ];
 

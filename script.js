@@ -101,11 +101,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create an array of link data
     const link = [
         { href: "index.html", text: "Home" },
-        { href: "#about", text: "About" },
+        { href: "index.html#about", text: "About" },
         { href: "menu.html", text: "Menu" },
         { href: "reservation.html", text: "Reservations" },
         { href: "#gallery", text: "Gallery" },
-        { href: "index.html#contact", text: "Contact" }
+        { href: "#contact", text: "Contact" }
     ];
 
     // Create the links and append them to the footerLinks nav

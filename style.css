@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
 
 .side-navbar {
     background-color: #1d232c;
-    width: 25%;
+    width: 35%;
     height: 100%;
     position: fixed;
     top: 0px;
@@ -63,6 +64,7 @@ body {
     transition: 0.5s;
     z-index: 1;
 }
+
 
 .side-navbar-link {
     margin-bottom: 30px;

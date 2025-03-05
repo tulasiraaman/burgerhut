@@ -1,4 +1,5 @@
 var sidnav = document.querySelector(".side-navbar");
+var links = document.querySelectorAll(".side-navbar-links a");
 
 function showNavbar() {
     sidnav.style.left = "0";
@@ -7,6 +8,11 @@ function showNavbar() {
 function closeNavbar() {
     sidnav.style.left = "-60%";
 }
+
+// Add event listeners to all sidebar links
+links.forEach(link => {
+    link.addEventListener("click", closeNavbar);
+});
 
 function contact() {
     alert("Thank you. Our team will message you soon...");
